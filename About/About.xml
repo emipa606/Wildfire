@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Wildfire (Continued)</name>
   <packageId>Mlie.Wildfire</packageId>
@@ -20,20 +20,24 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of peladors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2020321214
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/Wildfire][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 [h1]Overview[/h1]
 
@@ -44,7 +48,7 @@ Allows fires to run wild.
 
 Uses a harmony patch to remove the identification of large fires when deciding if rain needs to become more relevant as fires progress on the map.
 
-The game has a mechanism in it that after a number of fires are detected on a map, then the &quot;firewatcher&quot; process will &quot;ramp up&quot; or progress more rapidly to an alternative weather and also then try to select rain styled weathers.
+The game has a mechanism in it that after a number of fires are detected on a map, then the "firewatcher" process will "ramp up" or progress more rapidly to an alternative weather and also then try to select rain styled weathers.
 
 This mod then turns off that behaviour and allows fire to run freely, where weather selection will behave as normal; a more random/biome/seasonally skewed behaviour.
 
@@ -52,12 +56,12 @@ This mod then turns off that behaviour and allows fire to run freely, where weat
 
 Can be added and removed from a save game safely.
 
-Includes a mod option to toggle the functionality on and off. (Though there will be a delay if setting &quot;off&quot; after being &quot;on&quot; as the Fire watcher elements in the game &quot;ramp up&quot; based on the apparent danger (number of significant fires on the map) periodically).
+Includes a mod option to toggle the functionality on and off. (Though there will be a delay if setting "off" after being "on" as the Fire watcher elements in the game "ramp up" based on the apparent danger (number of significant fires on the map) periodically).
 
 (CC BY-NC-SA 4.0)
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -68,4 +72,3 @@ Includes a mod option to toggle the functionality on and off. (Though there will
 [/list]
 </description>
 </ModMetaData>
-
