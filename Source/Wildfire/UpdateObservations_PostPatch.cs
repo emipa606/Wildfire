@@ -8,7 +8,7 @@ namespace Wildfire;
 public class UpdateObservations_PostPatch
 {
     [HarmonyPostfix]
-    public static void PostFix(ref FireWatcher __instance, ref float ___fireDanger, ref Map ___map)
+    public static void PostFix(ref float ___fireDanger, ref Map ___map)
     {
         float num;
         if (Controller.Settings.AllowLrgFire)
