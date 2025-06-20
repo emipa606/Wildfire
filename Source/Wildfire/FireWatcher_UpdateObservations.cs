@@ -5,10 +5,9 @@ using Verse;
 namespace Wildfire;
 
 [HarmonyPatch(typeof(FireWatcher), "UpdateObservations")]
-public class UpdateObservations_PostPatch
+public class FireWatcher_UpdateObservations
 {
-    [HarmonyPostfix]
-    public static void PostFix(ref float ___fireDanger, ref Map ___map)
+    public static void Postfix(ref float ___fireDanger, ref Map ___map)
     {
         float num;
         if (Controller.Settings.AllowLrgFire)
