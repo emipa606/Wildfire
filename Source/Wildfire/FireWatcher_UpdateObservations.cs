@@ -5,7 +5,7 @@ using Verse;
 namespace Wildfire;
 
 [HarmonyPatch(typeof(FireWatcher), "UpdateObservations")]
-public class FireWatcher_UpdateObservations
+public static class FireWatcher_UpdateObservations
 {
     public static void Postfix(ref float ___fireDanger, ref Map ___map)
     {
